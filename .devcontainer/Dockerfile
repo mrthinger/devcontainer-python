@@ -5,4 +5,5 @@ ENV POETRY_HOME="/opt/poetry" \
 
 ENV PATH="$POETRY_HOME/bin:$PATH"
 
-RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
+RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py > get-poetry.py \
+    && python get-poetry.py --preview
