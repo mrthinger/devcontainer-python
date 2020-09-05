@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "PyContainer"
+name = "pycontainer"
 version = "0.1.0"
 description = ""
 authors = ["Evan Pierce <evanpierce@aim.com>"]
